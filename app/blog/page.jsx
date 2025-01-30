@@ -19,7 +19,7 @@ export default async function Page() {
               alt=""
             />
             <div className="p-6">
-              <Link href={`/blog/${post.id}`} >
+              <Link href={`/blog/${post.id}`}>
                 <h2 className="text-2xl font-bold mb-2">{post.title}</h2>
               </Link>
               <p className="text-gray-700 mb-4">{post.content}</p>
