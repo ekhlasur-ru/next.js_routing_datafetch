@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <header className="flex sticky top-0 justify-between items-center p-4 bg-gray-800 text-white">
+    <header className="flex sticky top-0 z-50 justify-between items-center p-4 bg-gray-800 text-white">
       <h1>
         <Link href="/">LOGO</Link>
       </h1>
