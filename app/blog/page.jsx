@@ -16,7 +16,8 @@ export default async function Page() {
             <img
               className="w-full hover:scale-105 h-48 object-cover transition-transform duration-300"
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtnvAOajH9gS4C30cRF7rD_voaTAKly2Ntaw&s"
-              alt=""
+              alt="Blog Images"
+              loading="lazy"
             />
             <div className="p-6">
               <Link href={`/blog/${post.id}`}>

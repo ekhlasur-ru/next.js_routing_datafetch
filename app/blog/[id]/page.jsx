@@ -28,6 +28,7 @@ export default async function Page({ params }) {
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtnvAOajH9gS4C30cRF7rD_voaTAKly2Ntaw&s"
           }
           alt={post.title}
+          loading="lazy"
         />
         <div className="p-6">
           <h1 className="text-3xl font-bold mb-4">{post.title}</h1>
