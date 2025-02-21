@@ -1,12 +1,16 @@
 "use client";
+
+import React from "react";
 import Link from "next/link";
-import { SiGmail } from "react-icons/si";
+import { CgMail } from "react-icons/cg";
+
 import { FaFacebook, FaInstagram } from "react-icons/fa6";
+
 export default function Footer() {
   return (
     <>
-      <footer className="text-white px-8 py-6 bg-gray-800 dark:bg-black">
-        <div className=" mx-auto grid text-center md:text-justify grid-cols-1 md:grid-cols-4 gap-4">
+      <footer className="text-white px-8 py-6 bg-gray-800">
+        <div className="mx-auto grid text-center md:text-left grid-cols-1 md:grid-cols-4 gap-4">
           <div className="mb-8 md:mb-0">
             <h3 className="text-lg font-bold mb-4">Address</h3>
             <address className="mb-2">
@@ -101,19 +105,29 @@ export default function Footer() {
                 </a>
               </li>
             </ul>
-            <div className="mt-4 gap-4 text-xl text-center mx-auto  flex justify-center">
+            <div className="mt-4 gap-4 text-xl text-center mx-auto flex justify-center">
               <a
                 target="_blank"
+                rel="noopener noreferrer"
                 href="https://www.facebook.com/"
                 className="mr-2"
               >
                 <FaFacebook />
               </a>
-              <a href="#" className="mr-2">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="#"
+                className="mr-2"
+              >
                 <FaInstagram />
               </a>
-              <a href="mailto:ekhlasurrahman42@gmail.com">
-                <SiGmail />
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="mailto:ekhlasurrahman42@gmail.com"
+              >
+                <CgMail />
               </a>
             </div>
           </div>

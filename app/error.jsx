@@ -11,7 +11,7 @@ export default function Error({ error, reset }) {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-4">
       <h2 className="text-2xl font-bold text-red-600 mb-4">
-        Something went wrong!
+        Something went wrong! error.jsx
       </h2>
       
       <button
